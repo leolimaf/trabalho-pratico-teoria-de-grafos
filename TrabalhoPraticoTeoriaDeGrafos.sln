@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmoDeBellmanFord", "AlgoritmoDeBellmanFord\AlgoritmoDeBellmanFord.csproj", "{D51B23A2-4F5B-41E8-850E-B8A2B13D8E6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoritmoDeBellmanFord", "AlgoritmoDeBellmanFord\AlgoritmoDeBellmanFord.csproj", "{D51B23A2-4F5B-41E8-850E-B8A2B13D8E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmoDeDijkstra", "AlgoritmoDeDijkstra\AlgoritmoDeDijkstra.csproj", "{EEC57367-61E2-4348-B9D3-2FC3EC9FBDEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D51B23A2-4F5B-41E8-850E-B8A2B13D8E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D51B23A2-4F5B-41E8-850E-B8A2B13D8E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D51B23A2-4F5B-41E8-850E-B8A2B13D8E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC57367-61E2-4348-B9D3-2FC3EC9FBDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC57367-61E2-4348-B9D3-2FC3EC9FBDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC57367-61E2-4348-B9D3-2FC3EC9FBDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC57367-61E2-4348-B9D3-2FC3EC9FBDEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
