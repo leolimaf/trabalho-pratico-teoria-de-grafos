@@ -16,11 +16,5 @@ namespace AlgoritmoDeBuscaEmProfundidade.Entidades
         {
             Nome = nome;
         }
-
-        public override string ToString()
-        {
-            return Nome;
-        }
-
     }
 }

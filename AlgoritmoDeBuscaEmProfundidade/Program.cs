@@ -19,7 +19,8 @@ namespace AlgoritmoDeBuscaEmProfundidade
 
                 Console.Write("Informe o nome do colaborador que deseja buscar no grafo: ");
                 string nomeDoColaborador = Console.ReadLine();
-                algoritmo.BuscarEmProfundidade(raiz, nomeDoColaborador); // TODO Implemetar busca em profundidade
+                Empregado emp = algoritmo.BuscarEmProfundidade(raiz, nomeDoColaborador.ToUpper().Trim());
+                Console.WriteLine(emp != null ? emp.Nome : "Colaborador não foi encontrado");
 
                 Console.Write("Deseja realizar outra busca? (S/N) ");
                 buscarNovamente = Console.ReadLine().ToUpper().Trim() == "S" ? true : false;
