@@ -64,9 +64,11 @@ namespace AlgoritmoDeBellmanFord
                     break;
             }
 
+            Console.WriteLine("Caminho mais curto partindo do vértice S:");
+
             foreach (var chaveValor in memorizando)
             {
-                Console.WriteLine($"{chaveValor.Key}: {chaveValor.Value}");
+                Console.WriteLine($"{chaveValor.Key} => {chaveValor.Value}");
             }
         }
     }
